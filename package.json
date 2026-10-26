@@ -1,0 +1,16 @@
+{
+  "name": "site-monitor",
+  "version": "1.0.0",
+  "description": "Система мониторинга доступности веб-ресурсов",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "once": "node src/index.js --once",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC"
+}

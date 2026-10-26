@@ -1,0 +1,14 @@
+{
+  "interval": 30,
+  "timeout": 5000,
+  "slow": 2000,
+  "maxFails": 3,
+  "logFile": "logs/checks.log",
+  "sites": [
+    { "name": "Google", "url": "https://www.google.com" },
+    { "name": "GitHub", "url": "https://github.com" },
+    { "name": "Хекслет", "url": "https://ru.hexlet.io" },
+    { "name": "Страница 404", "url": "https://github.com/no-such-page-404-test" },
+    { "name": "Несуществующий", "url": "https://no-such-site-12345.ru" }
+  ]
+}
